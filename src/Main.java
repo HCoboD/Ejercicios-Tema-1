@@ -64,12 +64,42 @@ public class Main {
  */
 
 //Ejercicio 1.4
+/*
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+
+        System.out.println("Introduce números positivos (negativo para terminar):");
+
+        while (true) {
+            num = scanner.nextInt();
+            if (num < 0) break;  // Termina si el número es negativo
+
+            if (num < min) min = num;
+            if (num > max) max = num;
+        }
+
+        if (min == Integer.MAX_VALUE) {
+            System.out.println("No se ingresaron números válidos.");
+        } else {
+            System.out.println("Mínimo: " + min);
+            System.out.println("Máximo: " + max);
+        }
+
+        scanner.close();
+    }
+}
+*/
+
+//Ejercicio 1.5
 
 public class Main {
     public static void main(String[] args) {
 
     }
 }
+
 
 
 
