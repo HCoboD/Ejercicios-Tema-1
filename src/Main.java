@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+
+//Ejercicio 1.1
+/*
 public class Main {
     public static void main(String[] args) {
 
@@ -21,3 +26,50 @@ public class Main {
         System.out.println("La suma de todos tus tiempos es de: " +segundos +"(segundos)");
     }
 }
+
+ */
+
+//Ejercicio 1.2
+/*
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Máximo valor de char: " + (int) Character.MAX_VALUE);
+        System.out.println("Máximo valor de short: " + (int)Short.MAX_VALUE);
+        System.out.println("Máximo valor de int: " + Integer.MAX_VALUE);//El int no hace nada en esta ocasion.
+
+    }
+}
+
+ */
+
+//Ejercicio 1.3
+/*
+public class Main {
+    public static void main(String[] args) {
+        int suma = 0;
+        int cantidad = 0;
+
+        System.out.println("Múltiplos de 5 entre 1 y 100:");
+        for (int i = 5; i <= 100; i += 5) {
+            System.out.print(i + " ");
+            suma += i;
+            cantidad++;
+        }
+
+        System.out.println("\nCantidad de múltiplos de 5: " + cantidad);
+        System.out.println("Suma de los múltiplos de 5: " + suma);
+    }
+}
+
+ */
+
+//Ejercicio 1.4
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+}
+
+
+
